@@ -11,7 +11,7 @@ def generate_wallets_and_save_to_file(number_of_wallets, file_name):
         os.makedirs(directory_name, exist_ok=True)
 
     # Open the file to write the wallet addresses and mnemonic phrases
-    with open(file_name, 'w') as f:
+    with open(file_name, 'a') as f:
         for _ in range(number_of_wallets):
             # Generate a new mnemonic phrase and the corresponding keypair
             keypair = Keypair.create_from_mnemonic(Keypair.generate_mnemonic())
