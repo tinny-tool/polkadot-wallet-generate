@@ -1,9 +1,10 @@
 ## install
 ```
-pip install substrateinterface
+pip3 install substrate-interface
+
 ```
 
 ## run
 ```
-python main.py
+python3 main.py
 ```
