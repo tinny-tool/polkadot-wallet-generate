@@ -1,6 +1,6 @@
 ## install
 ```
-pip install Keypair
+pip install substrateinterface
 ```
 
 ## run
